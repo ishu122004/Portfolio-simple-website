@@ -1,0 +1,99 @@
+*{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            align-items: center;
+            align-content:center;
+            box-sizing:border-box;
+}
+        
+       body{
+            background-color: pink;
+        }
+        .prot{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    padding:50px;
+}
+.headlink{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.head__link{
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+
+details{
+    cursor:pointer;
+}
+
+
+
+.prot__cont{
+    width:500px;
+}
+        .bio{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: left;
+            padding-left:20px;
+            display: inline;
+        }
+        .bio__home{
+            padding-left:500px;
+            padding-top: 5px;
+            display: inline;
+        }
+        .bio__about{
+            padding-left:15px;
+            padding-top: 5px;
+            display: inline;
+        }
+        .bio__skills{
+            padding-left:15px;
+            padding-top: 5px;
+            display: inline;
+        }
+        .bio__proj{
+            padding-left:15px;
+            padding-top: 5px;
+            display: inline;
+        }
+        .bio__content1{
+            padding-left:15px;
+            padding-top: 1px;
+            display: block;
+            margin-top: 0px;
+
+               
+            
+        }
+       
+        .bio__link{
+            padding-left:15px;
+            padding-top: 5px;
+            display: flex;
+        }
+        .bio__img{
+            
+             width: 600px;
+             padding-top: 0px;
+             border-radius: 50px;
+             padding-left: 100px;
+             display: inline;
+             
+             height:500px;
+             
+
+        }
+        .bio__conte:hover{
+            background-color:blue;
+            color:white;
+        }
+        
+       
