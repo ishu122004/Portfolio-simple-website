@@ -6,6 +6,7 @@
     <title>Portfolio</title>
 </head>
 <body>
+    <div class="container">
     <div class="headlink">
     <h1 class="bio">Portfolio</h1>
     
@@ -44,15 +45,17 @@
         
         </div>
     </div>
+    </div>
     <style>
         *{
             padding: 0;
             margin: 0;
-        
+            box-sizing: border-box;
             
         }
        body{
             background-color: pink;
+            width: 100%;
         }
        
         .prot{
@@ -81,7 +84,8 @@ details{
 
 
 .prot__cont{
-    width:500px;
+    width:100%;
+    max-width: 500px;
 }
         .bio{
             font-family: 'Times New Roman', Times, serif;
@@ -90,7 +94,7 @@ details{
             display: inline;
         }
         .bio__home{
-            padding-left:500px;
+            padding-left:0;
             padding-top: 5px;
             display: inline;
         }
@@ -126,13 +130,15 @@ details{
         }
         .bio__img{
             
-             width: 600px;
+             width: 100%;
              padding-top: 0px;
              border-radius: 50px;
-             padding-left: 100px;
+             padding-left: 0;
              display: inline;
+             max-width: 400px;
+
              
-             height:500px;
+             height:auto;
              
 
         }
