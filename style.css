@@ -122,10 +122,54 @@ details{
     .prot__cont{
         width:100%;
     }
+    
 
     .skills-container{
         flex-direction:column;
         gap:30px;
     }
 }
-       
+
+
+@media screen and (max-width: 768px) {
+
+    .prot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .prot__cont{
+        width: 100%;
+        max-width: 500px; 
+    }
+
+    .bio__img{
+        width: 250px;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .headlink{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .head__link{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .bio__home,
+    .bio__about,
+    .bio__skills,
+    .bio__proj,
+    .bio__cont{
+        padding-left: 0;
+    }
+}
