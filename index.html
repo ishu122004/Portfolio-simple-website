@@ -118,6 +118,8 @@ details{
             padding-top: 1px;
             display: block;
             margin-top: 0px;
+            line-height: 1.4;
+            margin-bottom: 8px;
 
                
             
@@ -130,7 +132,7 @@ details{
         }
         .bio__img{
             
-             width: 100%;
+             width: 250px;
              padding-top: 0px;
              border-radius: 50px;
              padding-left: 0;
@@ -145,6 +147,23 @@ details{
         .bio__conte:hover{
             background-color:blue;
             color:white;
+        }
+        @media screen and (max-width:768px){
+            .prot{
+                flex-direction: column;
+                gap: 15px;
+                padding: 15px;
+            }
+            .bio__img{
+                width: 220px;
+                padding-left: 0;
+
+            }
+            .prot__cont{
+                width:90%;
+                max-width: 350px;
+                text-align: center;
+            }
         }
         
        </style>
